@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/bg" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+            <TextView android:textStyle="1" android:textColor="@color/blu" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:text="@string/subject" />
+            <TextView android:id="@id/subject" android:background="@drawable/round_corner" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:text="" />
+            <TextView android:textStyle="1" android:textColor="@color/blu" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/body" />
+            <TextView android:id="@id/body" android:background="@drawable/round_corner" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:text="" />
+            <Button android:textColor="@color/white" android:layout_gravity="11" android:id="@id/reply" android:background="@drawable/login_btn" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text=" Reply" android:drawableLeft="@drawable/reply" />
+            <LinearLayout android:orientation="1" android:id="@id/reply_section" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                <TextView android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="11" android:id="@id/reply_section_txt" android:layout_width="-1" android:layout_height="-2" android:text="@string/reply_txt_v" />
+                <TextView android:textStyle="1" android:textColor="@color/blu" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:text="@string/subject" />
+                <EditText android:id="@id/reply_subject" android:background="@drawable/round_corner" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textStyle="1" android:textColor="@color/blu" android:id="@id/textView4" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/body" />
+                <EditText android:id="@id/reply_body" android:background="@drawable/round_corner" android:layout_width="-1" android:layout_height="-2" android:lines="4">
+                    <requestFocus />
+                </EditText>
+                <Button android:textColor="@color/white" android:layout_gravity="11" android:id="@id/send_reply" android:background="@drawable/login_btn" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text=" Send Reply" android:drawableLeft="@drawable/send" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

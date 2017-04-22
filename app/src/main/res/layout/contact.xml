@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/bg" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="30" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="30" android:id="@id/ban" android:layout_width="-1" android:layout_height="120dp" android:src="@drawable/mustcon" android:scaleType="1" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp">
+        <LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/postal_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/postal" />
+            <View android:background="@color/blu" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:layout_gravity="3" android:id="@id/postal_body" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="@string/postal_body" />
+            <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/phone_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/phone" />
+            <View android:background="@color/blu" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:layout_gravity="3" android:id="@id/phone_body" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="@string/phone_body" />
+            <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/fax_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/fax" />
+            <View android:background="@color/blu" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:layout_gravity="3" android:id="@id/fax_body" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="@string/fax_body" />
+            <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/web_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/web" />
+            <View android:background="@color/blu" android:layout_width="-1" android:layout_height="1dp" />
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="14sp" android:textStyle="1" android:layout_gravity="3" android:id="@id/web_body" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="@string/website" />
+                <TextView android:textSize="16sp" android:textStyle="1" android:textColorLink="@color/blu" android:autoLink="1" android:layout_gravity="11" android:id="@id/web_body2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:layout_marginTop="4dp" android:text="@string/url" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+                <Button android:id="@id/face" android:background="@drawable/fb" android:layout_width="40dp" android:layout_height="40dp" />
+                <Button android:id="@id/twitter" android:background="@drawable/twitter" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" />
+                <Button android:id="@id/pinterest" android:background="@drawable/pinterest" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" />
+                <Button android:id="@id/google" android:background="@drawable/google" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" />
+                <Button android:id="@id/instagram" android:background="@drawable/instagram" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="3" android:id="@id/msg_image" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="5dp" />
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp">
+        <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:id="@id/msg_subject" android:layout_width="-2" android:layout_height="-2" android:text="ss" />
+        <TextView android:textSize="11sp" android:layout_gravity="3" android:id="@id/msg_date" android:layout_width="-2" android:layout_height="-2" android:text="ss" />
+    </LinearLayout>
+</LinearLayout>

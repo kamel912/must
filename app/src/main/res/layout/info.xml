@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1"
+    android:background="@drawable/bg"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_id" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_id" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_id" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_name" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_name" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_college" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_college" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_college" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_major" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_major" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_major" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_level" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_level" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_level" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_cgpa" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_cgpa" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_cgpa" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_earned_hrs" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_earn_hrs" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_earned_hrs" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/txt_student_advisor" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/std_advisor_name" />
+            <TextView android:textSize="14sp" android:layout_gravity="3" android:id="@id/student_advisor" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

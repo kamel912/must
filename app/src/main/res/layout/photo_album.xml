@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-1">
+    <GridView android:id="@id/gridview" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="15dp" android:horizontalSpacing="3dp" android:verticalSpacing="3dp" android:stretchMode="2" android:numColumns="3" />
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="30" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="30" android:id="@id/ban" android:layout_width="-1" android:layout_height="120dp" android:src="@drawable/banner" android:scaleType="1" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s1" />
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s2" />
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s3" />
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s4" />
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s5" />
+            <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/about_s6" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="15dp">
+        <TextView android:textSize="13sp" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="3" android:id="@id/about7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:text="" />
+    </LinearLayout>
+</LinearLayout>

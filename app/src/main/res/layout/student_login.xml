@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/wbg" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="11" android:id="@id/imageView1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:src="@drawable/logo" android:scaleType="1" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="11" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:text="MUST - Student Login" />
+            <TextView android:textStyle="1" android:textColor="@color/blu" android:layout_gravity="11" android:id="@id/error_msg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="" />
+            <LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp">
+                <EditText android:textColor="@color/blu" android:textColorHint="@color/blu" android:id="@id/std_id" android:layout_width="-1" android:layout_height="-2" android:hint="ID..." android:ems="10" android:inputType="2" />
+                <EditText android:textColor="@color/blu" android:textColorHint="@color/blu" android:id="@id/password" android:layout_width="-1" android:layout_height="-2" android:hint="PassWord..." android:ems="10" android:inputType="81" />
+                <Button android:textColor="@color/white" android:id="@id/login" android:background="@drawable/login_btn" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Login" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
